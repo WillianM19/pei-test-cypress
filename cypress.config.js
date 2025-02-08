@@ -6,6 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: "https://pei-hmg.nadic.ifrn.edu.br/",
-    // testIsolation: false (se estiver false mantém os dados pós login)
+    testIsolation: false //(se estiver false mantém os dados pós login)
   },
 });
