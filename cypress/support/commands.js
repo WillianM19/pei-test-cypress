@@ -1,3 +1,4 @@
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -23,6 +24,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import 'cypress-file-upload';
 
 Cypress.Commands.add("login", (username, password) => {
     cy.session([username, password], () => {
@@ -32,3 +34,4 @@ Cypress.Commands.add("login", (username, password) => {
         cy.contains("button", "Entrar").click();
       });
 })
+
