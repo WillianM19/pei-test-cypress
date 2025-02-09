@@ -33,6 +33,9 @@ describe('Cadastrar docentes', () => {
         cy.get("#id_code").type(matricula);
 
         cy.contains("button", "Salvar").click();
+
+
+
     });
 
 });
