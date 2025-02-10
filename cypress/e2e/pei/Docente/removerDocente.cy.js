@@ -18,5 +18,6 @@ describe('Remover docente', () => {
         //Confirmar a remoção
         cy.get("button[type='submit']").contains("Confirmar").click({force: true})
     });
+    
 
 });
