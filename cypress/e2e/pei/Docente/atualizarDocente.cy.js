@@ -1,5 +1,5 @@
 
-describe('Editar docente', () => {
+describe('Atualizar docente', () => {
     
     beforeEach("Realizar login do coordenador", () => {
         cy.login("grupo4-coordenador@gmail.com", "123deoliveira4")
@@ -12,7 +12,7 @@ describe('Editar docente', () => {
     })
 
 
-    it('Fazer Edição de Discente', () => {
+    it('Fazer atualização de Discente', () => {
         cy.get("img[src='/static/images/icons/icon-edit-element.svg']").first().click({force: true})
         const fileName = 'teacher.png';  
         const novo_nome = `[Atualizado] Professor ${Math.random().toString(36).substring(2, 7)}`;
