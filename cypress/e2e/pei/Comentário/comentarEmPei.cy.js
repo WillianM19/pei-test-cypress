@@ -1,4 +1,4 @@
-describe('Cadastrar docentes', () => {
+describe('Comentar em PEI', () => {
     
     beforeEach("Realizar login do coordenador", () => {
         cy.login("grupo4-coordenador@gmail.com", "123deoliveira4")
@@ -10,7 +10,7 @@ describe('Cadastrar docentes', () => {
         cy.contains('p', 'PEIs').click({force: true})
     })
     
-    it('Fazer cadastro de Discente', () => {
+    it('Fazer comentário em PEI', () => {
         cy.get("img[src='/static/images/icons/icon-eye.svg']").first().click({force: true})
         
         const comentario = `Comentário teste!!! ${Math.random().toString(36).substring(2, 7)}`
