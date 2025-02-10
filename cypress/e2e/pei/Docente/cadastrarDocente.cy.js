@@ -34,7 +34,7 @@ describe('Cadastrar docentes', () => {
 
         cy.contains("button", "Salvar").click();
 
-
+        cy.url().should("contain", "/teacher/list/")
 
     });
 

@@ -25,6 +25,7 @@ describe('Editar docente', () => {
         cy.get("#id_campus").select(novo_campus);
 
         cy.contains("button", "Salvar").click();
+        cy.url().should("contain", "/teacher/list/")
     });
 
 });
