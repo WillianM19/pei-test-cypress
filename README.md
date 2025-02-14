@@ -239,7 +239,7 @@ Conforme esperado.
 ---
 
 
-### **Cenário TC011 - Remover de Comentar PEI** 
+### **Cenário TC012 - Remover de Comentar PEI** 
 **Pré-condições:** O usuário deve estar autenticado. 
 **Passos:** 
 1. Navegar até a página de remover Comentar PEI. 
@@ -253,6 +253,12 @@ Mensagem de confirmação exibida: "o comentar PEI foi removido com sucesso."
 
 **Resultado Real:** 
 Conforme esperado.
+
+
+---
+
+---
+
 
 
 ---
@@ -294,8 +300,8 @@ Conforme esperado.
 | TC011            | 4                           | 0         |
 | TC012            | 5                           | 0         |
 | TC013            | 2                           | 0         |
-
-
+| TC014            | 2                           | 0         |
+| TC015            | 2                           | 0         |
 
 
 ## **7. Relatório de Incidentes** 
