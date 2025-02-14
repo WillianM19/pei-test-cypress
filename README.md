@@ -257,8 +257,54 @@ Conforme esperado.
 
 ---
 
+### **Cenário TC0013 - Cadastro de Discentes** 
+**Pré-condições:** O usuário deve estar autenticado. 
+**Passos:** 
+1. Navegar até a página de cadastro de Discentes. 
+2. Preencher o formulário e apertar no botão de Salvar. 
+
+
+**Resultado Esperado:** 
+Mensagem de confirmação exibida: "O estudante foi cadastrado com sucesso." 
+
+
+**Resultado Real:** 
+Conforme esperado.
+
 ---
 
+### **Cenário TC0014 - Editar de Discentes** 
+**Pré-condições:** O usuário deve estar autenticado. 
+**Passos:** 
+1. Navegar até a página de editar Discentes. 
+2. atualizar informações do formulário e apertar no botão de Salvar. 
+
+
+**Resultado Esperado:** 
+Mensagem de confirmação exibida: "O discente foi atualizado com sucesso." 
+
+
+**Resultado Real:** 
+Conforme esperado.
+
+
+---
+
+
+### **Cenário TC0015 - Remover Discente** 
+**Pré-condições:** O usuário deve estar autenticado. 
+**Passos:** 
+1. Navegar até a página de remover Discente. 
+2. Selecionar docente a ser removido do sistema. 
+3. Clicar no botão de Confirmar.
+
+
+**Resultado Esperado:** 
+Mensagem de confirmação exibida: "O discente foi removido com sucesso." 
+
+
+**Resultado Real:** 
+Conforme esperado.
 
 
 ---
