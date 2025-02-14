@@ -351,8 +351,6 @@ Conforme esperado.
 
 
 ## **7. Relatório de Incidentes** 
-| **ID** | **Descrição do Incidente** | **Status** | **Responsável** | 
-|--------|-----------------------------|-----------|----------------| 
 
 
 ---
